@@ -98,6 +98,8 @@ make_response! {
     /** `352 <channel> <user> <host> <server> <nick> ( "H" / "G" > ["*"] [ ( "@" / "+" ) ]
         :<hopcount> <real name>` **/
     RPL_WHOREPLY        = 352,
+    /** `354 <arbitrary> <...>` :depending entirely on %args passed to who **/
+    RPL_WHOSPCRPL       = 354,
     /// `315 <name> :End of WHO list`
     RPL_ENDOFWHO        = 315,
     /// `353 ( "=" / "*" / "@" ) <channel> :[ "@" / "+" ] <nick> *( " " [ "@" / "+" ] <nick> )`

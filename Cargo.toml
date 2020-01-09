@@ -33,7 +33,7 @@ tokio-core = "0.1"
 tokio-io = "0.1"
 tokio-mockstream = "1.1"
 tokio-timer = "0.1"
-tokio-tls = "0.1"
+tokio-tls = "0.2"
 toml = { version = "0.4", optional = true }
 
 [dev-dependencies]
